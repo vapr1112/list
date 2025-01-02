@@ -17,4 +17,5 @@ public:
 	virtual const char*  what()const noexcept final { return message.c_str(); }
 
 	virtual ~remove_error() = default;
+
 };
