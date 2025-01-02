@@ -115,6 +115,7 @@ int& List:: operator[](int index)
 		}
 
 	}
+
 	catch (const out_of_range& range_er)
 	{
 		cout << range_er.what();
