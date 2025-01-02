@@ -7,7 +7,6 @@ private:
 	Node* head;
 	Node* tail;
 	int size = 0;
-
 public:
 	List() = default;
 
